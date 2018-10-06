@@ -1,0 +1,13 @@
+.section-list {
+	margin-top: 25px;
+	background-color: #00993D;
+	color: #FFFFFF
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+li {
+	cursor: pointer;
+}

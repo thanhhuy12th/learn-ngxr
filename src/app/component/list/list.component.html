@@ -1,0 +1,9 @@
+<section class="section-list">
+	<div class="container">
+		<ul>
+			<li *ngFor="let task of tasks | async; let i = index" (click)="removeTask(i)">
+				{{task.taskname}} - {{task.tasktime}}
+			</li>
+		</ul>
+	</div>
+</section>

@@ -1,0 +1,9 @@
+<section class="add-section">
+	<div class="container">
+		<div class="add-form">
+			<input type="text" class="form-control" #taskname placeholder="Typing your task name ..." /> <br />
+			<input type="text" class="form-control" #tasktime placeholder="Typing your task time" /> <br />
+			<button class="btn btn-success" (click)="addTask(taskname.value, tasktime.value)">Add task</button>
+		</div>
+	</div>
+</section>
